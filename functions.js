@@ -13,11 +13,4 @@ function setRandomColor() {
 	document.body.style.background = randomColor;
 }
 
-function headache() {
-	while (1) {
-		setRandomColor();
-	}
-}
-
-document.onclick = function(){getRandomColor()}
-document.onload = function(){headache()}
+document.onclick = function(){setRandomColor()}
